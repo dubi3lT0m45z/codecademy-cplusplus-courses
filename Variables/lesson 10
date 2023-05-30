@@ -1,0 +1,33 @@
+#include <iostream>
+
+int main() {
+  // Add your code below  
+  double weight;
+
+  std::cout << "Tell me the weight of your item: \n";
+  std::cin >> weight;
+
+  double weightOnMars = (weight/9.81)*3.711;
+
+  std::cout << "This item would weight on mars about " << weightOnMars << "\n";
+
+  return 0;
+}
+
+///////////////
+
+#include <iostream>
+
+int main() {
+  // Add your code below  
+  double mdis;
+
+  std::cout << "Tell me the distance in miles: \n";
+  std::cin >> mdis;
+
+  double kmdis = mdis*1.609344;
+
+  std::cout << "This distance in kilometers would be about " << kmdis << " km\n";
+
+  return 0;
+}
