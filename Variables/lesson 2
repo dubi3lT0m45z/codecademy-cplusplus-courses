@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main() 
+{
+
+  // Declare a variable
+  int year;
+  
+}
+
+//////
+  
+g++ variable.cpp && ./a.out
