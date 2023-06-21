@@ -1,0 +1,4 @@
+//song.hpp
+class Song{
+
+};
